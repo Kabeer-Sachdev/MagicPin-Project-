@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-09-26T10:36:16Z",
+  "total_evaluated": 5,
+  "total_passed": 5,
+  "pass_rate_pct": 100.0,
+  "duration_seconds": 0.003,
+  "report_entries": [
+    {
+      "scenario_id": "eval_dentists_demand",
+      "category": "dentists",
+      "merchant_id": "m_eval_dentists",
+      "selected_signal": "research_digest",
+      "decision_score": 58.7,
+      "message": "Dr. Valued Partner, JIDA Oct 2026, p.14 landed. One item relevant to your practice \u2014 2100-patient trial showed 3-month fluoride varnish recall outperforms 6-month for high-risk adult caries. Worth a look (2-min abstract). Want me to pull it + draft a patient-ed WhatsApp you can share? \u2014 JIDA Oct 2026, p.14",
+      "cta": "open_ended",
+      "suppression_key": "eval:dentists:demand",
+      "validation_result": true,
+      "failure_type": null
+    },
+    {
+      "scenario_id": "eval_salons_demand",
+      "category": "salons",
+      "merchant_id": "m_eval_salons",
+      "selected_signal": "perf_dip",
+      "decision_score": 52.0,
+      "message": "Valued Partner, your profile views are at 1850 this window. Focusing on active customer retention is the best move right now. Want me to draft a quick engagement post for your profile?",
+      "cta": "binary_yes_no",
+      "suppression_key": "eval:salons:demand",
+      "validation_result": true,
+      "failure_type": null
+    },
+    {
+      "scenario_id": "eval_restaurants_demand",
+      "category": "restaurants",
+      "merchant_id": "m_eval_restaurants",
+      "selected_signal": "perf_dip",
+      "decision_score": 54.5,
+      "message": "Valued Partner, your profile views are at 1850 this window. Focusing on active customer retention is the best move right now. Want me to draft a quick engagement post for your profile?",
+      "cta": "binary_yes_no",
+      "suppression_key": "eval:restaurants:demand",
+      "validation_result": true,
+      "failure_type": null
+    },
+    {
+      "scenario_id": "eval_gyms_demand",
+      "category": "gyms",
+      "merchant_id": "m_eval_gyms",
+      "selected_signal": "perf_dip",
+      "decision_score": 52.0,
+      "message": "Valued Partner, your profile views are at 1850 this window. Focusing on active customer retention is the best move right now. Want me to draft a quick engagement post for your profile?",
+      "cta": "binary_yes_no",
+      "suppression_key": "eval:gyms:demand",
+      "validation_result": true,
+      "failure_type": null
+    },
+    {
+      "scenario_id": "eval_pharmacies_demand",
+      "category": "pharmacies",
+      "merchant_id": "m_eval_pharmacies",
+      "selected_signal": "perf_dip",
+      "decision_score": 54.0,
+      "message": "Valued Partner, your profile views are at 1850 this window. Focusing on active customer retention is the best move right now. Want me to draft a quick engagement post for your profile?",
+      "cta": "binary_yes_no",
+      "suppression_key": "eval:pharmacies:demand",
+      "validation_result": true,
+      "failure_type": null
+    }
+  ]
+}
